@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AnaEkranFragment">
+
+
+    <ImageView
+        android:id="@+id/arkaPlanTasarim"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/arka_plan_tasarim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/hedefEkle"
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/hedef_ekleme_buton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagesiralaAz"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="132dp"
+        android:src="@drawable/siralama_az"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagesiralaZa"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="80dp"
+        android:src="@drawable/siralama_za"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bildirimButon"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="192dp"
+        android:src="@drawable/bildirim_buton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <ImageView
+        android:id="@+id/arkaPlanTasarim2"
+        android:layout_width="60dp"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/arka_plan_tasarim4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/arkaPlanTasarim3"
+        android:layout_width="0dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="12dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/arka_plan_tasarim3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hedefEkle"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/cikisButon"
+        android:layout_width="63dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="1dp"
+        android:src="@drawable/cikis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <ImageView
+        android:id="@+id/ayakkabi"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="332dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ayakkabi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

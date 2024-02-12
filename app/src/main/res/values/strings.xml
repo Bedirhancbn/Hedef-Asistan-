@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HedefAsistani</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kayit_ol">Kayıt Ol</string>
+    <string name="giris_yap"> Giriş Yap</string>
+    <string name="giris_mail">E-posta adresinizi giriniz .....</string>
+    <string name="giris_parola">Parolanızı Giriniz .....</string>
+    <string name="giris_parola_yeniden">Parolanızı Yeniden Giriniz .....</string>
+    <string name="giris_hedef">Bir Hedef Giriniz</string>
+    <string name="zaten_uye">Zaten Üye Misiniz ?</string>
+    <string name="zaten_uye_degil">Henüz Üye Değil Misiniz ?</string>
+    <string name="hedef_asitani">HEDEF ASİSTANI</string>
+    <string name="tarih_baslangic">Başlangıç Tarihini Seçiniz:</string>
+    <string name="tarih_baslangic_detay">Başlangıç Tarihiniz:</string>
+    <string name="tarih_bitis">Bitiş Tarihini Seçiniz:</string>
+    <string name="tarih_bitis_detay">Bitiş Tarihiniz:</string>
+    <string name="hedef_ad">Hedef Adı</string>
+    <string name="hedef_aciklamasi">Hedef Açıklaması</string>
+    <string name="tarih_ilk_deger">01/01/2023</string>
+    <string name="hedefler">Hedef</string>
+</resources>

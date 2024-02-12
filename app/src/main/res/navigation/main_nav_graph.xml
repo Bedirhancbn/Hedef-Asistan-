@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/baslangicEkraniFragment">
+    <fragment
+        android:id="@+id/anaEkranFragment"
+        android:name="com.example.hedefasistani.fragments.AnaEkranFragment"
+        android:label="fragment_ana_ekran"
+        tools:layout="@layout/fragment_ana_ekran" >
+        <action
+            android:id="@+id/action_anaEkranFragment_to_girisYapFragment"
+            app:destination="@id/girisYapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/baslangicEkraniFragment"
+        android:name="com.example.hedefasistani.fragments.BaslangicEkraniFragment"
+        android:label="fragment_baslangic_ekrani"
+        tools:layout="@layout/fragment_baslangic_ekrani" >
+        <action
+            android:id="@+id/action_baslangicEkraniFragment_to_anaEkranFragment"
+            app:destination="@id/anaEkranFragment" />
+        <action
+            android:id="@+id/action_baslangicEkraniFragment_to_girisYapFragment"
+            app:destination="@id/girisYapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/girisYapFragment"
+        android:name="com.example.hedefasistani.fragments.GirisYapFragment"
+        android:label="fragment_giris_yap"
+        tools:layout="@layout/fragment_giris_yap" >
+        <action
+            android:id="@+id/action_girisYapFragment_to_uyeOlFragment"
+            app:destination="@id/uyeOlFragment" />
+        <action
+            android:id="@+id/action_girisYapFragment_to_anaEkranFragment"
+            app:destination="@id/anaEkranFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/uyeOlFragment"
+        android:name="com.example.hedefasistani.fragments.UyeOlFragment"
+        android:label="fragment_uye_ol"
+        tools:layout="@layout/fragment_uye_ol" >
+        <action
+            android:id="@+id/action_uyeOlFragment_to_girisYapFragment"
+            app:destination="@id/girisYapFragment" />
+        <action
+            android:id="@+id/action_uyeOlFragment_to_anaEkranFragment"
+            app:destination="@id/anaEkranFragment" />
+    </fragment>
+</navigation>

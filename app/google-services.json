@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "132626421576",
+    "firebase_url": "https://hedefasistani-c805b-default-rtdb.firebaseio.com",
+    "project_id": "hedefasistani-c805b",
+    "storage_bucket": "hedefasistani-c805b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132626421576:android:761a8efbfab99ef745457d",
+        "android_client_info": {
+          "package_name": "com.example.hedefasistani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132626421576-ccq7om11e54nss0u7lk1ncrsvel06740.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hedefasistani",
+            "certificate_hash": "bf98a1d1dd2e916823ec2c960d8610ccd37381fc"
+          }
+        },
+        {
+          "client_id": "132626421576-bpi6g8scapius9h5r6jqjek2er7p4hck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmTXT0iWrZtCVL03MWYfsZa_tZgZKWjC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132626421576-bpi6g8scapius9h5r6jqjek2er7p4hck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
